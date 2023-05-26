@@ -31,4 +31,13 @@
   <a href="mailto:felipecoelho.ness@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </div> 
 
-  ![Snake animation](https://github.com/Felipeness/Felipeness/blob/output/github-contribution-grid-snake.svg)
+ <p style="font-size: 20px">And I was studying to</p>
+
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+<br />
+
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
+<br />
+
+![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
+

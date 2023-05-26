@@ -1,9 +1,9 @@
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FFF&background=DC000000&center=true&vCenter=true&width=435&lines=Oi%2C+o+meu+nome+%C3%A9+Felipe!;Eu+tenho+23+anos;Sou+do+Bras%C3%ADl;E+sou+Front-End+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FFF&background=DC000000&center=true&vCenter=true&width=435&lines=Hello%2C+I'm+Felipe!;I'm+23+years+old;I+am+Brazilian;I+am+Front-End+Developer)](https://git.io/typing-svg)
  
   
-  <p align="center">Me formei em Engenharia da Computação na <a href="www.unifesspa.edu.br">Unifesspa</a> e me aprofundei no que é essencial para ser um bom Desenvolvedor Front-end. Também estudo sobre Inteligencia Artificial e IOT.</p>
+  <p align="center">I graduated in Computer Engineering at <a href="www.unifesspa.edu.br">Unifesspa</a> and I delved into what is essential to be a good Front-end Developer. I also study about Artificial Intelligence and IOT.</p>
 
 
 

@@ -1,6 +1,6 @@
 <div align="center">
   
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FFF&background=DC000000&center=true&vCenter=true&width=435&lines=Oi%2C+o+meu+nome+%C3%A9+Daniel!;Eu+tenho+22+anos;Sou+de+Bras%C3%ADlia;E+sou+Full-stack+Developer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FFF&background=DC000000&center=true&vCenter=true&width=435&lines=Oi%2C+o+meu+nome+%C3%A9+Felipe!;Eu+tenho+23+anos;Sou+do+Bras%C3%ADl;E+sou+Front-End+Developer)](https://git.io/typing-svg)
  
   
   <p align="center">Me formei em Engenharia da Computação na <a href="www.unifesspa.edu.br">Unifesspa</a> e me aprofundei no que é essencial para ser um bom Desenvolvedor Front-end. Também estudo sobre Inteligencia Artificial e IOT.</p>

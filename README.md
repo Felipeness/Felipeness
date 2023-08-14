@@ -3,7 +3,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FFF&background=DC000000&center=true&vCenter=true&width=435&lines=What's+up+%2C+I'm+Felipe!;I'm+24+years+old;I+am+Brazilian;I+am+Front-End+Developer)](https://git.io/typing-svg)
  
   
-  <p align="center">I graduated in Computer Engineering at <a href="www.unifesspa.edu.br">Unifesspa</a> and I delved into what is essential to be a good Front-end Developer. I also study about Artificial Intelligence and IOT.</p>
+  <p align="center">I graduated in Computer Engineering at <a href="www.unifesspa.edu.br">Unifesspa</a> and I delved into what is essential to be a good Full Stack Developer. I also study about Artificial Intelligence and IOT.</p>
 
 
 

@@ -6,6 +6,16 @@
   <p align="center">I graduated in Computer Engineering at <a href="www.unifesspa.edu.br">Unifesspa</a> and I delved into what is essential to be a good Full Stack Developer. I also study about Artificial Intelligence and IOT.</p>
 
 
+## 🛠️ Skills
+
+- **Frontend:** React, Next.js, Redux, Bootstrap, Tailwind, Styled Components, Chakra UI, Framer Motion, Figma, UX/UI Design, Material UI
+- **Backend:** Node.js (Express.js), RESTful APIs, GraphQL, microservices
+- **Database:** MySQL, PostgreSQL, MongoDB, Mongoose, Sequelize, Prisma, MariaDB
+- **Testing and Optimization:** Jest, Vitest
+- **Tools and Practices:** Git Flow, Conventional Commits, Docker, Git, Scrum, Jira, Power BI
+- **Programming Principles:** Functional Programming, Object-Oriented Programming (OOP), Event-Driven Architecture (EDA), Test-Driven Development (TDD)
+- **Deployment Platforms:** Heroku, Vercel, AWS
+- **Soft Skills:** Problem Solving, Communication, Leadership, Teamwork, Continuous Learning
 
   
 <div align="center">

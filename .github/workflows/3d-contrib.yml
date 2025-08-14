@@ -1,9 +1,13 @@
 # .github/workflows/3d-contrib.yml
 name: Generate 3D Contributions
+
 on:
   schedule:
-    - cron: "0 3 * * 1"   # toda segunda 03:00 UTC
+    - cron: "0 3 * * 1" # toda segunda 03:00 UTC
   workflow_dispatch:
+
+permissions:
+  contents: write # necessário para commitar os SVGs gerados
 
 jobs:
   build:
@@ -11,12 +15,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Generate 3D graph
+        uses: yoshi389111/github-profile-3d-contrib@0.9.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # token automático do GitHub
+          USERNAME: Felipeness
 
-      - uses: yoshi389111/github-profile-3d-contrib@v2
-        with:
-          username: Felipeness
-
-      # Commita os arquivos gerados (pasta profile-3d-contrib/)
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update 3D contributions"
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          git commit -m "chore: update 3D contributions" || echo "no changes"
+          git push

@@ -19,10 +19,10 @@
 
 ---
 
-## ⛰️ Skill Landscape
+## ⛰️ Profile Graphic
 
 <p align="center">
-  <img src="./assets/skill-landscape.svg" alt="3D Skill Landscape" width="820" />
+  <img src="./assets/profile-night-rainbow.svg" alt="Night Rainbow Profile — Felipe" width="900" />
 </p>
 
 ---

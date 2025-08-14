@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-label="Felipe — Night Rainbow Profile with Skill Bars">
+  <defs>
+    <!-- Night background gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f12"/>
+      <stop offset="100%" stop-color="#0a0d11"/>
+    </linearGradient>
+
+    <!-- Rainbow accent gradient -->
+    <linearGradient id="rainbow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="20%" stop-color="#ffd93d"/>
+      <stop offset="40%" stop-color="#6bff95"/>
+      <stop offset="60%" stop-color="#66e3ff"/>
+      <stop offset="80%" stop-color="#b366ff"/>
+      <stop offset="100%" stop-color="#ff6bd6"/>
+    </linearGradient>
+
+    <!-- Bar gradients -->
+    <linearGradient id="gReact" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00ffb3"/>
+      <stop offset="100%" stop-color="#0a6a52"/>
+    </linearGradient>
+    <linearGradient id="gNode" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66e3ff"/>
+      <stop offset="100%" stop-color="#1b5b72"/>
+    </linearGradient>
+    <linearGradient id="gPy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe066"/>
+      <stop offset="100%" stop-color="#7a6a1b"/>
+    </linearGradient>
+    <linearGradient id="gDevOps" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b366ff"/>
+      <stop offset="100%" stop-color="#4b1b70"/>
+    </linearGradient>
+
+    <!-- Soft shadow -->
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="360" fill="url(#bg)"/>
+
+  <!-- Top rainbow line -->
+  <rect x="24" y="26" width="952" height="3" fill="url(#rainbow)" rx="2"/>
+
+  <!-- Header -->
+  <g font-family="monospace" fill="#cfeee8">
+    <text x="40" y="80" font-size="26" font-weight="700">Luis Felipe Soares Coelho</text>
+    <text x="40" y="110" font-size="16" fill="#9adfd0">Senior Front-End Engineer • Full-Stack Developer • UX & Performance</text>
+  </g>
+
+  <!-- Right decorative rainbow ring -->
+  <g transform="translate(840,84)" opacity="0.9" filter="url(#soft)">
+    <circle r="46" fill="none" stroke="url(#rainbow)" stroke-width="6"/>
+    <circle r="30" fill="none" stroke="#0f1720" stroke-width="8"/>
+  </g>
+
+  <!-- Skill bars baseline -->
+  <g transform="translate(40,150)">
+    <g>
+      <text x="0" y="-10" fill="#78c9b8" font-family="monospace" font-size="14">Skill Depth</text>
+      <line x1="0" y1="164" x2="920" y2="164" stroke="#203036" stroke-width="2"/>
+      <line x1="0" y1="0" x2="0" y2="164" stroke="#203036" stroke-width="2"/>
+    </g>
+
+    <!-- Helper for pseudo-3D: top faces are polygons, fronts are rects, sides are darker polygons -->
+
+    <!-- React / Next / TypeScript -->
+    <g transform="translate(60,0)">
+      <rect x="0" y="64" width="160" height="100" fill="url(#gReact)" filter="url(#soft)"/>
+      <polygon points="0,64 28,46 188,46 160,64" fill="#00e6a3"/>
+      <polygon points="160,64 188,46 188,146 160,164" fill="#0b7b5e"/>
+      <text x="80" y="190" font-family="monospace" font-size="13" fill="#9adfd0" text-anchor="middle">React / Next / TS</text>
+    </g>
+
+    <!-- Node / Nest -->
+    <g transform="translate(300,0)">
+      <rect x="0" y="92" width="160" height="72" fill="url(#gNode)" filter="url(#soft)"/>
+      <polygon points="0,92 28,77 188,77 160,92" fill="#58d0ea"/>
+      <polygon points="160,92 188,77 188,149 160,164" fill="#1f6d84"/>
+      <text x="80" y="190" font-family="monospace" font-size="13" fill="#9adfd0" text-anchor="middle">Node / Nest</text>
+    </g>
+
+    <!-- Python / FastAPI -->
+    <g transform="translate(540,0)">
+      <rect x="0" y="84" width="160" height="80" fill="url(#gPy)" filter="url(#soft)"/>
+      <polygon points="0,84 28,66 188,66 160,84" fill="#ffd64d"/>
+      <polygon points="160,84 188,66 188,146 160,164" fill="#8c7a1f"/>
+      <text x="80" y="190" font-family="monospace" font-size="13" fill="#9adfd0" text-anchor="middle">Python / FastAPI</text>
+    </g>
+
+    <!-- DevOps / Cloud -->
+    <g transform="translate(780,0)">
+      <rect x="0" y="116" width="160" height="48" fill="url(#gDevOps)" filter="url(#soft)"/>
+      <polygon points="0,116 28,103 188,103 160,116" fill="#a65df2"/>
+      <polygon points="160,116 188,103 188,151 160,164" fill="#5a2a88"/>
+      <text x="80" y="190" font-family="monospace" font-size="13" fill="#9adfd0" text-anchor="middle">DevOps / Cloud</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(24,320)">
+    <rect x="0" y="0" width="952" height="2" fill="url(#rainbow)"/>
+    <text x="952" y="-10" text-anchor="end" font-family="monospace" font-size="11" fill="#659c91">/felipeness • portfolio • linkedin</text>
+  </g>
+</svg>

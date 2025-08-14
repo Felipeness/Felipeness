@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # permite rodar manualmente
 
 permissions:
-  contents: write # necessário para commitar os SVGs gerados
+  contents: write # precisa para commitar os SVGs
 
 jobs:
   build:
@@ -16,11 +16,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate 3D graph
-        uses: yoshi389111/github-profile-3d-contrib@0.9.0 # fixado em release estável
-        with:
-          username: Felipeness
+        uses: yoshi389111/github-profile-3d-contrib@0.9.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: Felipeness
 
       - name: Commit & Push generated files
         uses: stefanzweifel/git-auto-commit-action@v5

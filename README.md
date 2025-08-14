@@ -19,10 +19,10 @@
 
 ---
 
-## ⛰️ Profile Graphic
+## 🧩 3D Contributions
 
 <p align="center">
-  <img src="./assets/profile-night-rainbow.svg" alt="Night Rainbow Profile — Felipe" width="900" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="900" />
 </p>
 
 ---

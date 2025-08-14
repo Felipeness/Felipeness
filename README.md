@@ -19,11 +19,12 @@
 
 ---
 
-## ⛰️ Skill Landscape (3D SVG)
-
 <!-- 3D chart inline: works on GitHub (basic SVG only) -->
-<div align="center">
-<svg width="880" height="320" viewBox="0 0 880 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="3D Skill Bars">
+## ⛰️ Skill Landscape
+
+<p align="center">
+  <img src="./assets/skill-landscape.svg" alt="3D Skill Landscape" width="820" />
+</p>
   <defs>
     <linearGradient id="gA" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0%" stop-color="#00FFB3"/><stop offset="100%" stop-color="#0a6a52"/>

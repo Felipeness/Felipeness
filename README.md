@@ -1,7 +1,7 @@
 <!-- Clean Dark README (with external SVG reference) -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=3000&pause=1000&color=00FFB3&background=00000000&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Felipe+%F0%9F%9A%80;Senior+Front-End+Engineer;Full-Stack+Developer;UX+%26+Performance+Focused)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=3000&pause=1000&color=00FFB3&background=00000000&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Felipe+%F0%9F%9A%80;Senior+Engineer;Full-Stack+Developer;UX+%26+Performance+Focused)](https://git.io/typing-svg)
 
 <p><b>Computer Engineer</b> building fast, scalable and delightful web products.</p>
 

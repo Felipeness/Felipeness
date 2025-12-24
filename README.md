@@ -78,6 +78,22 @@ Enterprise healthcare scheduling with Clean Architecture.
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Pet-Dex Backend](https://github.com/Felipeness/pet-dex-backend)
+Go backend with clean architecture patterns.
+
+`Go` `Clean Architecture` `REST API`
+
+- Hexagonal architecture structure
+- Domain-driven design principles
+- Idiomatic Go patterns
+
+</td>
+<td width="50%" valign="top">
+</td>
+</tr>
 </table>
 
 ---
@@ -102,6 +118,7 @@ Enterprise healthcare scheduling with Clean Architecture.
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?style=flat&logo=typescript)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=flat&logo=javascript)
+![Go](https://img.shields.io/badge/-Go-000?style=flat&logo=go)
 ![Python](https://img.shields.io/badge/-Python-000?style=flat&logo=python)
 ![React](https://img.shields.io/badge/-React-000?style=flat&logo=react)
 ![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat&logo=next.js)

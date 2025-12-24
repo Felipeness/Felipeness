@@ -32,7 +32,7 @@ Platform automating Brazilian government bidding with AI document analysis and g
 </td>
 <td width="50%" valign="top">
 
-### Yamaha Fit RH
+### [Yamaha Fit RH](https://www.afinidadeatitudeazul.com.br/)
 **Enterprise HR Platform — Yamaha Brazil**
 
 Multi-tenant cultural fit assessment system for national HR operations.

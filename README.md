@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FFB3&background=00000000&center=true&vCenter=true&width=700&lines=Felipe+Soares;Senior+Software+Engineer;Building+AI-Powered+SaaS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00FFB3&background=00000000&center=true&vCenter=true&width=700&lines=Felipe+Soares;Senior+Software+Engineer;Enterprise+SaaS+%2B+AI+Integration)](https://git.io/typing-svg)
 
 **Computer Engineer** specializing in Enterprise SaaS, AI Integration, and High-Performance Systems.
 

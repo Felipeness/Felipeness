@@ -86,8 +86,8 @@ Go backend with clean architecture patterns.
 
 `Go` `Clean Architecture` `REST API`
 
-- Hexagonal architecture structure
-- Domain-driven design principles
+- Entities, use cases, interfaces layers
+- Dependency inversion principles
 - Idiomatic Go patterns
 
 </td>

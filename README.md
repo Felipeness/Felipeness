@@ -19,7 +19,7 @@
 
 ## <picture><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></picture> About me
 
-Sou engenheiro de backend e sistemas distribuídos, brasileiro, focado em construir software que **resolve problemas reais** com vocabulário arquitetural correto e execução cuidada no detalhe. Trabalho diariamente em plataformas multi-tenant de larga escala — pipelines event-driven com NestJS, FastAPI, Kafka, MongoDB, Redis — e estou sempre experimentando o próximo passo: Effect-TS, Temporal, orquestração multi-agente.
+Sou engenheiro de backend e sistemas distribuídos, brasileiro, focado em construir software que **resolve problemas reais** com vocabulário arquitetural correto e execução cuidada no detalhe. Trabalho diariamente em plataformas multi-tenant de larga escala — Echo-Atende no Superlogica, arquitetura VSA + hexagonal por feature, Express + Temporal workers, MongoDB + Redis, AI integrada via OpenAI — e estou sempre experimentando o próximo passo: Effect-TS, orquestração multi-agente, Rust.
 
 Minha **tese autoral é Holonomic Systems** — uma aplicação dos holons de Arthur Koestler à arquitetura de software. Cada módulo é simultaneamente um todo (autônomo, com seu próprio domínio, dados e UI) e uma parte (cooperando com outros holons via eventos assíncronos). É a síntese que estou desenvolvendo em [The Whole and the Part](https://github.com/Felipeness/the-whole-and-the-part), com 62 capítulos cobrindo desde o Janus Effect filosófico até produção real (Saga, CQRS, Outbox, Temporal como sistema nervoso).
 
@@ -38,7 +38,7 @@ Acredito que **código é poesia, performance é arte**. E que toda boa arquitet
 🔨 Building       Nessy v0.1 — hybrid search RRF over Claude Code sessions
 📝 Writing        The Whole and the Part — Chapter Lineage (EN translation)
 🧪 Shipping       LicitaWin — AI-powered public procurement SaaS (BR)
-🛰  Daily          Echo-Atende — distributed messaging (NestJS · MongoDB · Kafka · FastAPI services)
+🛰  Daily          Echo-Atende @ Superlogica — VSA + hexagonal (Express · Temporal · MongoDB · Redis · BullMQ · Socket.io)
 🌱 Learning       Kubernetes · Terraform · Advanced ML · Multi-agent orchestration
 🌐 Exploring      Temporal · Rust · Effect-TS · Holonomic Multi-Agent Systems
 🤝 Open to        OSS collabs on NestJS · Effect-TS · Claude Code tooling
@@ -134,11 +134,11 @@ Multi-tenant cultural fit assessment system for national HR operations. Multi-un
 <td width="50%" valign="top">
 
 ### 📡 Echo-Atende (private)
-**Distributed messaging at Superlogica**
+**Atendimento omnichannel @ Superlogica**
 
-Real-time atendimento platform — multi-channel routing, FastAPI microservices, Kafka event bus, MongoDB conversation store.
+Plataforma de atendimento em tempo real — Express + Temporal workers + Socket.io, AI features com OpenAI, observability Datadog. Arquitetura **VSA (Vertical Slice) com hexagonal por feature** — cada slice tem seus próprios `adapters/`, `ports/`, `dto/` + use cases, com DI explícita via `deps`.
 
-`NestJS` `FastAPI` `MongoDB` `Kafka` `RabbitMQ` `Redis`
+`Express` `Temporal` `MongoDB` `Redis` `BullMQ` `Socket.io` `Zod` `Datadog` `Vitest`
 
 </td>
 </tr>
@@ -209,9 +209,9 @@ Merged upstream in production-grade projects:
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Kafka](https://img.shields.io/badge/-Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![BullMQ](https://img.shields.io/badge/-BullMQ-DD0031?style=for-the-badge&logo=redis&logoColor=white)
 ![AWS_SQS](https://img.shields.io/badge/-AWS_SQS-FF4F8B?style=for-the-badge&logo=amazon-sqs&logoColor=white)
+![Socket.io](https://img.shields.io/badge/-Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
 
 **Infrastructure & DevOps**
 
@@ -224,8 +224,9 @@ Merged upstream in production-grade projects:
 
 **Architecture & Patterns**
 
-![DDD](https://img.shields.io/badge/-DDD-blueviolet?style=for-the-badge)
+![VSA](https://img.shields.io/badge/-Vertical_Slice-A78BFA?style=for-the-badge)
 ![Hexagonal](https://img.shields.io/badge/-Hexagonal-9F7AEA?style=for-the-badge)
+![DDD](https://img.shields.io/badge/-DDD-blueviolet?style=for-the-badge)
 ![Event_Sourcing](https://img.shields.io/badge/-Event_Sourcing-805AD5?style=for-the-badge)
 ![Saga](https://img.shields.io/badge/-Saga-6B46C1?style=for-the-badge)
 ![Outbox](https://img.shields.io/badge/-Outbox-553C9A?style=for-the-badge)
@@ -233,9 +234,11 @@ Merged upstream in production-grade projects:
 
 **Observability**
 
+![Datadog](https://img.shields.io/badge/-Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)
+![Grafana_Loki](https://img.shields.io/badge/-Grafana_Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Winston](https://img.shields.io/badge/-Winston-353535?style=for-the-badge)
 ![Pino](https://img.shields.io/badge/-Pino-687B8D?style=for-the-badge)
-![Loguru](https://img.shields.io/badge/-Loguru-1E88E5?style=for-the-badge)
 
 </div>
 

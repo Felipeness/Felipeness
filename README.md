@@ -41,7 +41,9 @@ const felipe = {
 🔨 Building       Nessy v0.1 — hybrid search RRF over Claude Code sessions
 📝 Writing        The Whole and the Part — Chapter Lineage (EN translation)
 🧪 Shipping       LicitaWin — AI-powered public procurement SaaS (BR)
-🌱 Exploring      Temporal · Rust · Multi-agent holonomic orchestration
+🛰  Daily          Echo-Atende — distributed messaging (NestJS · MongoDB · Kafka · FastAPI services)
+🌱 Learning       Kubernetes · Terraform · Advanced ML · Multi-agent orchestration
+🌐 Exploring      Temporal · Rust · Effect-TS · Holonomic Multi-Agent Systems
 🤝 Open to        OSS collabs on NestJS · Effect-TS · Claude Code tooling
 ```
 
@@ -118,6 +120,33 @@ Single Go binary. 16 components, 5 themes, drag-and-drop browser studio. Web UI 
 </tr>
 </table>
 
+### Enterprise (production work)
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [👥 Yamaha Fit RH](https://www.afinidadeatitudeazul.com.br/)
+**Enterprise HR Platform — Yamaha Brazil**
+
+Multi-tenant cultural fit assessment system for national HR operations. Multi-unit RBAC, 40-question alignment assessment, advanced reporting + Excel export.
+
+`Next.js` `NestJS 11` `Prisma` `Docker` `JWT/RBAC`
+
+</td>
+<td width="50%" valign="top">
+
+### 📡 Echo-Atende (private)
+**Distributed messaging at Superlogica**
+
+Real-time atendimento platform — multi-channel routing, FastAPI microservices, Kafka event bus, MongoDB conversation store.
+
+`NestJS` `FastAPI` `MongoDB` `Kafka` `RabbitMQ` `Redis`
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## <img src="https://media.giphy.com/media/jpVnC65DmYeyRL4LHS/giphy.gif" width="28"> Open Source Contributions
@@ -132,6 +161,23 @@ Merged upstream in production-grade projects:
 | [🛠 **twentyhq/twenty**](https://github.com/twentyhq/twenty/pull/18495) | ![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=flat&color=2D3748&labelColor=2D3748) | [#18495](https://github.com/twentyhq/twenty/pull/18495) | Clear error message on invalid `LOG_LEVELS` config |
 | [📅 **calcom/cal.com**](https://github.com/calcom/cal.com/pull/28479) | ![Stars](https://img.shields.io/github/stars/calcom/cal.com?style=flat&color=2D3748&labelColor=2D3748) | [#28479](https://github.com/calcom/cal.com/pull/28479) | i18n pluralization for apps count |
 | [🔐 **unkeyed/unkey**](https://github.com/unkeyed/unkey/pull/5251) | ![Stars](https://img.shields.io/github/stars/unkeyed/unkey?style=flat&color=2D3748&labelColor=2D3748) | [#5251](https://github.com/unkeyed/unkey/pull/5251) | Error feedback for duplicate env var keys |
+
+</div>
+
+---
+
+## <img src="https://media.giphy.com/media/ZcKASxMYMKA9SQnhIl/giphy.gif" width="28"> Impact
+
+<div align="center">
+
+| Area | Result |
+|---|---|
+| **Performance** | Reduced LCP by **60%** with SSR, code splitting & targeted caching |
+| **AI in Production** | OpenAI + Gemini for document automation at scale (LicitaWin) |
+| **Architecture** | Hexagonal + DDD + Event Sourcing + Saga + Outbox in production NestJS systems |
+| **Delivery** | Cut release cycles **30%** with CI/CD & preview environments per PR |
+| **Enterprise** | Multi-tenant RBAC systems for national brands (Yamaha, Echo-Atende) |
+| **Open Source** | 4 PRs merged in projects with 130k+ aggregate stars (Prisma, Twenty, Cal.com, Unkey) |
 
 </div>
 
@@ -156,16 +202,28 @@ Merged upstream in production-grade projects:
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Fastify](https://img.shields.io/badge/-Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Effect-TS](https://img.shields.io/badge/-Effect--TS-7B68EE?style=for-the-badge&logo=typescript&logoColor=white)
 
-**Data & Infrastructure**
+**Data & Messaging**
 
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Kafka](https://img.shields.io/badge/-Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![AWS_SQS](https://img.shields.io/badge/-AWS_SQS-FF4F8B?style=for-the-badge&logo=amazon-sqs&logoColor=white)
+
+**Infrastructure & DevOps**
+
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazon-web-services&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Nginx](https://img.shields.io/badge/-Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 **Architecture & Patterns**
 

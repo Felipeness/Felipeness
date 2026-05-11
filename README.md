@@ -19,19 +19,16 @@
 
 ## <picture><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></picture> About me
 
-```ts
-const felipe = {
-  role: "Backend & Distributed Systems Engineer",
-  location: "Brasil",
-  thesis: "Holonomic Systems — Koestler's holons applied to software",
-  currentlyBuilding: ["Nessy", "Holonomic Architecture", "LicitaWin"],
-  writing: ["The Whole and the Part (EN)", "Ferro e Espírito (PT-BR)"],
-  philosophy: "Vocabulary is correct. Execution is in the detail.",
-  motto: "Code is poetry. Performance is art.",
-} as const;
-```
+Sou engenheiro de backend e sistemas distribuídos, brasileiro, focado em construir software que **resolve problemas reais** com vocabulário arquitetural correto e execução cuidada no detalhe. Trabalho diariamente em plataformas multi-tenant de larga escala — pipelines event-driven com NestJS, FastAPI, Kafka, MongoDB, Redis — e estou sempre experimentando o próximo passo: Effect-TS, Temporal, orquestração multi-agente.
+
+Minha **tese autoral é Holonomic Systems** — uma aplicação dos holons de Arthur Koestler à arquitetura de software. Cada módulo é simultaneamente um todo (autônomo, com seu próprio domínio, dados e UI) e uma parte (cooperando com outros holons via eventos assíncronos). É a síntese que estou desenvolvendo em [The Whole and the Part](https://github.com/Felipeness/the-whole-and-the-part), com 62 capítulos cobrindo desde o Janus Effect filosófico até produção real (Saga, CQRS, Outbox, Temporal como sistema nervoso).
+
+Em paralelo, estou construindo **Nessy** (analytics local pra sessões de Claude Code com hybrid search RRF), **Holonomic Architecture** (boilerplate Fastify + Effect-TS + Temporal que materializa a tese), **LicitaWin** (SaaS B2B de licitações públicas BR com IA) e contribuindo onde dá em projetos open source que respeito — já tive PRs merged em Prisma, Twenty, Cal.com e Unkey.
+
+Acredito que **código é poesia, performance é arte**. E que toda boa arquitetura é uma decisão honesta entre autonomia e integração — onde o engenheiro maduro encontra o ponto certo.
 
 > *"A holon is simultaneously a whole and a part. So is every module worth building."*
+> — sobre o Janus Effect, em *The Whole and the Part*
 
 ---
 
@@ -239,57 +236,6 @@ Merged upstream in production-grade projects:
 ![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)
 ![Pino](https://img.shields.io/badge/-Pino-687B8D?style=for-the-badge)
 ![Loguru](https://img.shields.io/badge/-Loguru-1E88E5?style=for-the-badge)
-
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/dCO0AwbgIhmfu/giphy.gif" width="28"> GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Felipeness&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=00FFB3&icon_color=00FFB3&text_color=ffffff" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Felipeness&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00FFB3&text_color=ffffff&langs_count=8" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Felipeness&theme=tokyonight&hide_border=true&background=0D1117&stroke=00FFB3&ring=00FFB3&fire=00FFB3&currStreakLabel=00FFB3" alt="GitHub Streak" />
-
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif" width="28"> Activity Graph
-
-<div align="center">
-
-[![Felipe's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Felipeness&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00FFB3&line=00FFB3&point=ffffff&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Profile Summary
-
-<div align="center">
-
-[![Felipe's GitHub Profile Summary Cards](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Felipeness&theme=tokyonight)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-
-[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Felipeness&theme=tokyonight)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Felipeness&theme=tokyonight)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-
-[![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Felipeness&theme=tokyonight)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Felipeness&theme=tokyonight&utcOffset=-3)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/ZcKASxMYMKA9SQnhIl/giphy.gif" width="28"> Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Felipeness&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=8&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 

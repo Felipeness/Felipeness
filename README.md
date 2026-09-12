@@ -23,7 +23,7 @@ Sou engenheiro de backend e sistemas distribuídos, brasileiro, focado em constr
 
 Minha **tese autoral é Holonomic Systems** — uma aplicação dos holons de Arthur Koestler à arquitetura de software. Cada módulo é simultaneamente um todo (autônomo, com seu próprio domínio, dados e UI) e uma parte (cooperando com outros holons via eventos assíncronos). É a síntese que estou desenvolvendo em [The Whole and the Part](https://github.com/Felipeness/the-whole-and-the-part), com 62 capítulos cobrindo desde o Janus Effect filosófico até produção real (Saga, CQRS, Outbox, Temporal como sistema nervoso).
 
-Em paralelo, estou construindo **Nessy** (analytics local pra sessões de Claude Code com hybrid search RRF), **Holonomic Architecture** (boilerplate Fastify + Effect-TS + Temporal que materializa a tese), **LicitaWin** (SaaS B2B de licitações públicas BR com IA) e contribuindo onde dá em projetos open source que respeito — já tive PRs merged em Prisma, Twenty, Cal.com e Unkey.
+Em paralelo, estou construindo **Nessy** (analytics local pra sessões de Claude Code com hybrid search RRF), **Holonomic Architecture** (boilerplate Fastify + Effect-TS + Temporal que materializa a tese), **MedVia** (plataforma de telemedicina multi-médico — fila on-demand, encaminhamento com contra-referência e prontuário) e **Nous Invest** (screener quantitativo pro mercado brasileiro), além de contribuir onde dá em projetos open source que respeito — já tive PRs merged em Prisma, Twenty, Cal.com e Unkey.
 
 Acredito que **código é poesia, performance é arte**. E que toda boa arquitetura é uma decisão honesta entre autonomia e integração — onde o engenheiro maduro encontra o ponto certo.
 
@@ -37,7 +37,8 @@ Acredito que **código é poesia, performance é arte**. E que toda boa arquitet
 ```text
 🔨 Building       Nessy v0.1 — hybrid search RRF over Claude Code sessions
 📝 Writing        The Whole and the Part — Chapter Lineage (EN translation)
-🧪 Shipping       LicitaWin — AI-powered public procurement SaaS (BR)
+🧪 Shipping       MedVia — multi-doctor telemedicine (on-demand queue · referrals · EHR)
+📈 Running        Nous Invest — quantitative stock screener for the Brazilian market
 🛰  Daily          Echo-Atende @ Superlogica — VSA + hexagonal (Express · Temporal · MongoDB · Redis · BullMQ · Socket.io)
 🌱 Learning       Kubernetes · Terraform · Advanced ML · Multi-agent orchestration
 🌐 Exploring      Temporal · Rust · Effect-TS · Holonomic Multi-Agent Systems
@@ -117,7 +118,7 @@ Single Go binary. 16 components, 5 themes, drag-and-drop browser studio. Web UI 
 </tr>
 </table>
 
-### Enterprise (production work)
+### In production (closed source)
 
 <table>
 <tr>
@@ -139,6 +140,28 @@ Multi-tenant cultural fit assessment system for national HR operations. Multi-un
 Plataforma de atendimento em tempo real — Express + Temporal workers + Socket.io, AI features com OpenAI, observability Datadog. Arquitetura **VSA (Vertical Slice) com hexagonal por feature** — cada slice tem seus próprios `adapters/`, `ports/`, `dto/` + use cases, com DI explícita via `deps`.
 
 `Express` `Temporal` `MongoDB` `Redis` `BullMQ` `Socket.io` `Zod` `Datadog` `Vitest`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [🏥 MedVia](https://d2z4cs2rly9uro.cloudfront.net)
+**Telemedicina multi-médico — private repo**
+
+Fila on-demand pro clínico geral, especialista sempre agendado, e encaminhamento como entidade de primeira classe (com contra-referência de volta pro clínico). Vídeo browser-first via Daily.co atrás de adapter próprio, prontuário sob CFM/LGPD.
+
+`Fastify` `Effect-TS` `Drizzle` `Postgres` `pg-boss` `Next.js` `Daily.co` `Terraform`
+
+</td>
+<td width="50%" valign="top">
+
+### [📈 Nous Invest](https://d2o0vbr0twnz6d.cloudfront.net)
+**Stock screener quantitativo (B3) — private repo**
+
+~450 ativos curados com cotações 5y, fundamentos e macro do BCB. Scoring Barsi/Bazin/Lynch, DCF e Gordon interativos, backtest e métricas de risco (Sharpe, Beta, Max Drawdown).
+
+`FastAPI` `Python 3.13` `TimescaleDB` `Redis` `Next.js 16` `TanStack Query` `Terraform`
 
 </td>
 </tr>
@@ -170,7 +193,7 @@ Merged upstream in production-grade projects:
 | Area | Result |
 |---|---|
 | **Performance** | Reduced LCP by **60%** with SSR, code splitting & targeted caching |
-| **AI in Production** | OpenAI + Gemini for document automation at scale (LicitaWin) |
+| **AI in Production** | OpenAI-backed features running in Echo-Atende's omnichannel support flow |
 | **Architecture** | Hexagonal + DDD + Event Sourcing + Saga + Outbox in production NestJS systems |
 | **Delivery** | Cut release cycles **30%** with CI/CD & preview environments per PR |
 | **Enterprise** | Multi-tenant RBAC systems for national brands (Yamaha, Echo-Atende) |

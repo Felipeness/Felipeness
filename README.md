@@ -23,7 +23,7 @@ Sou engenheiro de backend e sistemas distribuídos, brasileiro, focado em constr
 
 Minha **tese autoral é Holonomic Systems** — uma aplicação dos holons de Arthur Koestler à arquitetura de software. Cada módulo é simultaneamente um todo (autônomo, com seu próprio domínio, dados e UI) e uma parte (cooperando com outros holons via eventos assíncronos). É a síntese que estou desenvolvendo em [The Whole and the Part](https://github.com/Felipeness/the-whole-and-the-part), com 62 capítulos cobrindo desde o Janus Effect filosófico até produção real (Saga, CQRS, Outbox, Temporal como sistema nervoso).
 
-Em paralelo, estou construindo **Nessy** (analytics local pra sessões de Claude Code com hybrid search RRF), **Holonomic Architecture** (boilerplate Fastify + Effect-TS + Temporal que materializa a tese), **MedVia** (plataforma de telemedicina multi-médico — fila on-demand, encaminhamento com contra-referência e prontuário) e **Nous Invest** (screener quantitativo pro mercado brasileiro), além de contribuir onde dá em projetos open source que respeito — já tive PRs merged em Prisma, Twenty, Cal.com e Unkey.
+Em paralelo, estou construindo **Nessy** (analytics local pra sessões de Claude Code com hybrid search RRF), **Holonomic Architecture** (boilerplate Fastify + Effect-TS + Temporal que materializa a tese), **MedVia** (plataforma de telemedicina multi-médico — fila on-demand, encaminhamento com contra-referência e prontuário) e **Nous Invest** (screener quantitativo pro mercado brasileiro), além de contribuir onde dá em projetos open source que respeito — já tive contribuições merged no core do Node.js, Prisma, Twenty, Cal.com e Unkey.
 
 Acredito que **código é poesia, performance é arte**. E que toda boa arquitetura é uma decisão honesta entre autonomia e integração — onde o engenheiro maduro encontra o ponto certo.
 
@@ -177,6 +177,7 @@ Merged upstream in production-grade projects:
 
 | Repository | Stars | PR | Contribution |
 |---|---|---|---|
+| [🟢 **nodejs/node**](https://github.com/nodejs/node/pull/62336) | ![Stars](https://img.shields.io/github/stars/nodejs/node?style=flat&color=2D3748&labelColor=2D3748) | [#62336](https://github.com/nodejs/node/pull/62336) | Skip the JS callback for already-settled `Promise.race` losers — landed in core as [`1aebbdef06`](https://github.com/nodejs/node/commit/1aebbdef06065cef6566525ca4a042ffb8fb5308) |
 | [🔌 **prisma/prisma**](https://github.com/prisma/prisma/pull/29317) | ![Stars](https://img.shields.io/github/stars/prisma/prisma?style=flat&color=2D3748&labelColor=2D3748) | [#29317](https://github.com/prisma/prisma/pull/29317) | Extract `PRISMA_CLIENT_JS_PROVIDER` constant — refactor across 4 packages |
 | [🛠 **twentyhq/twenty**](https://github.com/twentyhq/twenty/pull/18495) | ![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=flat&color=2D3748&labelColor=2D3748) | [#18495](https://github.com/twentyhq/twenty/pull/18495) | Clear error message on invalid `LOG_LEVELS` config |
 | [📅 **calcom/cal.com**](https://github.com/calcom/cal.com/pull/28479) | ![Stars](https://img.shields.io/github/stars/calcom/cal.com?style=flat&color=2D3748&labelColor=2D3748) | [#28479](https://github.com/calcom/cal.com/pull/28479) | i18n pluralization for apps count |
@@ -197,7 +198,7 @@ Merged upstream in production-grade projects:
 | **Architecture** | Hexagonal + DDD + Event Sourcing + Saga + Outbox in production NestJS systems |
 | **Delivery** | Cut release cycles **30%** with CI/CD & preview environments per PR |
 | **Enterprise** | Multi-tenant RBAC systems for national brands (Yamaha, Echo-Atende) |
-| **Open Source** | 4 PRs merged in projects with 130k+ aggregate stars (Prisma, Twenty, Cal.com, Unkey) |
+| **Open Source** | 5 contributions merged in projects with 275k+ aggregate stars (Node.js core, Prisma, Twenty, Cal.com, Unkey) |
 
 </div>
 
